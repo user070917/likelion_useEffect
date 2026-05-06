@@ -1,7 +1,10 @@
 import React from "react";
+import ItemList from "./ItemList";
 
 const App = () => {
-	return <div className="text-red-500 text-7xl">App</div>;
+	return <div>
+    <ItemList />
+  </div>;
 };
 
 export default App;
